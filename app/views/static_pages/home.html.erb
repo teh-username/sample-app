@@ -1,5 +1,10 @@
-<h1>Home Page</h1>
-<p>
-  This is the home page for my
-  <a href="http://laroberto.xyz">website</a>
-</p>
+<div class='center jumbotron'>
+  <h1>Home Page</h1>
+
+  <h2>
+    This the home page for my <a href='http://laroberto.xyz'> website </a>
+  </h2>
+
+  <%= link_to 'Sign up now!', signup_path, class: 'btn btn-lg btn-primary' %>
+</div>
+<%= link_to image_tag('rails.png', alt: 'Rails logo'), 'http://rubyonrails.org/' %>
